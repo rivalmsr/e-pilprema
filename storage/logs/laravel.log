@@ -598,3 +598,13 @@ Stack trace:
 #71 /home/rivalmsr/Documents/rdeveloper/laravel/e-pilpresma/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
 #72 /home/rivalmsr/Documents/rdeveloper/laravel/e-pilpresma/server.php(21): require_once('/home/rivalmsr/...')
 #73 {main}  
+[2019-03-24 05:57:01] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "seve" is not defined.
+
+Did you mean this?
+    serve in /home/rivalmsr/Documents/rdeveloper/laravel/e-pilprema/vendor/symfony/console/Application.php:515
+Stack trace:
+#0 /home/rivalmsr/Documents/rdeveloper/laravel/e-pilprema/vendor/symfony/console/Application.php(183): Symfony\Component\Console\Application->find('seve')
+#1 /home/rivalmsr/Documents/rdeveloper/laravel/e-pilprema/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /home/rivalmsr/Documents/rdeveloper/laravel/e-pilprema/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(107): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /home/rivalmsr/Documents/rdeveloper/laravel/e-pilprema/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
